@@ -1,4 +1,4 @@
-
+//Rashmil Panchani 99 97 Parag Vaid 95 93 Siddharth Sanghavi 98 100 --sample input
 var file =[{
     "name":process.argv[2],
     "surname":process.argv[3],
