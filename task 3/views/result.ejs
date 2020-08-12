@@ -1,0 +1,27 @@
+<h1>Its Result Time</h1>
+
+<table border="1">
+  <tr>
+
+
+  <th>  Name </th> <th>  Math </th> <th> English </th> <th> Average </th>
+  </tr>
+  <% for(i=0;i<data.length;i++){ %>
+
+<tr>
+<td> <%= data[i].fullName %></td>
+<td> <%= data[i].mathMarks %> </td>
+<td> <%= data[i].englishMarks %> </td>
+<td> <%= data[i].average %> </td>
+
+</tr>
+
+
+
+  <% } %>
+</table>
+
+
+
+
+<button><a href='/'>Add More</a> </button>
